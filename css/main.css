@@ -1,126 +1,75 @@
 
-   .square{
-	   height: 200px;
-	width: 200px;
-   }
    
-.flex-container {
+.square {
   display: flex;
   width: 100%;
-  
 }
 
-.flex-container > div {
- /* background-color: transparent; */
-  width: 200px;
+.square > div {
+   width: 200px;
   height: 200px;
   margin: 12px;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
-  
+  display: inline-block;
 } 
 
-.square-1 {
-  width: 200px;
-  height: 200px;
+.square--square-1 { 
   background-color: #373a3c;
-  margin: 54px;
 }
 
-.square-28 {
-  width: 200px;
-  height: 200px;
+.square--square-28 {
   background-color: #55595c;
-  margin: 42px;
 }
 
-.square-17 {
-  width: 200px;
-  height: 200px;
+.square--square-17 {
   background-color: #777777;
-  margin: 54px;
 }
 
-.square-2 {
-  width: 200px;
-  height: 200px;
+.square--square-2 {
   background-color: #818a91;
-  margin: 54px;
 }
 
-.square-23 {
-  width: 200px;
-  height: 200px;
+.square--square-23 {
   background-color: #dddddd;
-  margin: 54px;
 }
 
-.square-8 {
-  width: 200px;
-  height: 200px;
+.square--square-8 {
   background-color: #eceeef;
-  margin: 54px;
 }
 
-.square-13 {
-  width: 200px;
-  height: 200px;
+.square--square-13 {
   background-color: #5cb85c;
-  margin: 54px;
 }
 
-.square-14 {
-  width: 200px;
-  height: 200px;
+.square--square-14 {
   background-color: #56c0e0;
-  margin: 54px;
 }
 
-.square-15 {
-  width: 200px;
-  height: 200px;
+.square--square-15 {
   background-color: #f0ad4e;
-  margin: 54px;
 }
 
-.square-16 {
-  width: 200px;
-  height: 200px;
+.square--square-16 {
   background-color: #d9534f;
-  margin: 54px;
 }
 
-.square-43 {
-  width: 200px;
-  height: 200px;
+.square--square-43 {
   background-color: #dcedf6;
-  margin: 54px;
 }
 
-.square-48 {
-  width: 200px;
-  height: 200px;
+.square--square-48 {
   background-color: #1c7cd5;
-  margin: 54px;
 }
-.square-44 {
-  width: 200px;
-  height: 200px;
+.square--square-44 {
   background-color: #e2eed8;
-  margin: 54px;
 }
 
-.square-46 {
-  width: 200px;
-  height: 200px;
+.square--square-46 {
   background-color: #fcf7e4;
-  margin: 54px;
 }
 
-.square-47 {
-  width: 200px;
-  height: 200px;
+.square--square-47 {
   background-color: #efdfdf;
-  margin: 54px;
 }
