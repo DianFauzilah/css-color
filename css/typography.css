@@ -1,0 +1,181 @@
+body {
+    font-family: 'Lato';font-size: 22px;
+}
+
+.Typography {
+  width: 1600px;
+  height: 1150px;
+  background-color: var(--white);
+}
+
+.h1-heading {
+ /*  width: 422px;
+  height: 48px; */
+  font-family: HelveticaNeue;
+  /* font-size: 40px; */
+  font-weight: bold;
+  /*font-style: normal;
+  font-stretch: normal; */
+  line-height: 1.23;
+ /*  letter-spacing: normal; */
+  text-align: left;
+  color: #373a3c;
+}
+
+.Fancy {
+  display: flex;  
+}
+
+.text-style-1 {
+  color: #818a91;
+}
+
+.paragraph {
+  line-height: 1.5;
+  color: #373a3c;
+}
+
+.ul--default {
+  color: #373a3c;
+}
+
+.ul--circle {
+  list-style-type: circle;
+  color: #373a3c;
+}
+
+.Twitter {
+  width: 186px;
+  height: 163px;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373a3c;
+  margin-left: 497px;
+  margin-top: -72px;
+}
+
+.Twitter-Inc {
+  font-weight: bold;
+}
+
+.Twitter-Inc1 {
+  color: #1c7cd5;
+}
+
+.Display{
+  margin-left: 899px;
+  margin-top: -1092px;
+}
+
+.Display-1 {
+  width: 395px;
+  height: 111px;
+  font-size: 96px;
+  line-height: 1.19;
+}
+
+.Display-2 {
+  width: 362px;
+  height: 103px;
+  font-size: 88px;
+  line-height: 1.19;
+}
+
+.Display-3 {
+  width: 325px;
+  height: 92px;
+  font-size: 79px;
+  line-height: 1.19;
+}
+
+.Display-4 {
+  width: 251px;
+  height: 71px;
+  font-size: 61px;
+  line-height: 1.2;
+}
+
+.line {
+  border-left: 6px solid silver;
+  height: 112px; 
+  margin-left: 904px;
+  margin-top: 56px;
+}
+.Blockquote {
+  width: 623px;
+  height: 58px;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: left;
+  margin-left: 45px;
+  margin-top: 75px;
+  margin-right: 1px;
+}
+
+.someone {
+  width: 290px;
+  height: 23px;
+  font-family: HelveticaNeue;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: left;
+  color: #818a91;
+  margin-left: 82px;
+  margin-top: 15px;
+}
+
+.hr1 {
+  width: 21px;
+  margin-left: 47px;
+  margin-top: -10px;
+}
+
+.Line-1 {
+  width: 23px;
+  height: 0;
+  color: #95989a;
+}
+
+.Blockquote1 {
+  width: 623px;
+  height: 58px;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: right;
+  color: #373a3c;
+  margin-left: -668px;
+  margin-top: 75px;
+  margin-right: 1px;
+}
+
+.someone1 {
+  width: 290px;
+  height: 23px;
+  font-family: HelveticaNeue;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: left;
+  color: #818a91;
+  margin-left: -331px;
+  margin-top: 15px;
+}
+
+.line1 {
+  border-left: 6px solid silver;
+  height: 112px; 
+  margin-left: 1532px;
+  margin-right: 100px;
+  margin-top: 56px;
+}
+
+.hr {
+  width: 21px;
+  margin-left: -64px;
+  margin-top: -10px;
+}
