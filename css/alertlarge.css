@@ -1,0 +1,92 @@
+.Background {
+  width: 573px;
+  height: 161px;
+  border-radius: 4px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.Background--8 {
+  background-color: #cce5ff;
+}
+
+.Background--1 {
+  background-color: #e7e8ea;
+}
+
+.Background--2 {
+  background-color: #d4edda;
+}
+
+.Background--3 {
+  background-color: #f8d7da;
+}
+
+.Background--4 {
+  background-color: #fff3cd;
+}
+
+.Background--5 {
+  background-color: #d1ecf1;
+}
+
+.Background--6 {
+  background-color: #fefefe;
+}
+
+.Background--7 {
+  background-color: #d6d8d9;
+}
+
+.well{
+  font-size: 24px;
+  margin-top: 10px;
+  margin-left: 13px;
+  font-family: HelveticaNeue;
+}
+
+.well--1 {
+	color: #464a4e;
+}
+
+.well--2 {
+	color: #155724;
+}
+
+.well--3 {
+	color: #721c24;
+}
+
+.well--4 {
+	color: #856404;
+}
+
+.well--5 {
+	color: #0c5460;
+}
+
+.well--6 {
+	color: #818182;
+}
+
+.well--7 {
+	color: #1b1e21;
+}
+
+.well--8 {
+	color: #004085;
+}
+.Text {
+  width: 543px;
+  height: 109px;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: left;
+  color: #004085;
+  margin-left: 13px;
+}

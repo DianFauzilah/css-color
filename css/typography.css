@@ -6,90 +6,55 @@ body {
   width: 1600%;
   height: 1150%;
   background-color: var(--white);
-}
-
-.h1 {
-  width: 422px;
-  height: 48px; 
   font-family: HelveticaNeue;
-  font-size: 40px; 
   font-weight: bold;
   font-style: normal;
   font-stretch: normal; 
-  line-height: 1.23;
   letter-spacing: normal; 
   text-align: left;
   color: #373a3c;
 }
 
-.h2 {
+.h--1 {
+  width: 422px;
+  height: 48px; 
+  font-size: 40px; 
+  line-height: 1.23;
+}
+
+.h--2 {
   width: 388px;
   height: 38px;
-  font-family: HelveticaNeue;
   font-size: 32px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.22;
-  letter-spacing: normal;
-  text-align: left;
-  color: #373a3c;
 }
 
-.h3 {
+.h--3 {
   width: 295px;
   height: 33px;
-  font-family: HelveticaNeue;
   font-size: 28px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.21;
-  letter-spacing: normal;
-  text-align: left;
-  color: #373a3c;
 }
 
-.h4 {
+.h--4 {
   width: 253px;
   height: 28px;
-  font-family: HelveticaNeue;
   font-size: 24px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.21;
-  letter-spacing: normal;
-  text-align: left;
-  color: #373a3c;
 }
 
-.h5 {
+.h--5 {
   width: 211px;
   height: 24px;
-  font-family: HelveticaNeue;
   font-size: 20px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.25;
-  letter-spacing: normal;
-  text-align: left;
-  color: #373a3c;
 }
 
-.h6 {
+.h--6 {
   width: 169px;
   height: 19px;
-  font-family: HelveticaNeue;
   font-size: 16px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.19;
-  letter-spacing: normal;
-  text-align: left;
-  color: #373a3c;
 }
 .Fancy {
   display: flex;

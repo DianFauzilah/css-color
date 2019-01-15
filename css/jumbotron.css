@@ -1,0 +1,77 @@
+.Jumbotron {
+  width: 906px;
+  height: 596px;
+  background-color: var(--white);
+  margin-top: 80px;
+}
+
+.Rectangle {
+  width: 772px;
+  height: 482px;
+  border-radius: 4px;
+  background-color: var(--silver);
+}
+
+.Hello-world {
+  width: 440px;
+  height: 92px;
+  font-family: HelveticaNeue;
+  font-size: 79px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373a3c;
+}
+
+.paragrap {
+  width: 702px;
+  height: 55px;
+  font-family: HelveticaNeue;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373a3c;
+}
+
+.paragrap2 {
+  width: 663px;
+  height: 45px;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373a3c;
+}
+
+.button {
+  width: 151px;
+  height: 54px;
+  border-radius: 4px;
+  background-color: #1c7cd5;
+  font-family: HelveticaNeue;
+}
+
+.more {
+  width: 102px;
+  height: 23px;
+  font-family: HelveticaNeue;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--white);
+}
