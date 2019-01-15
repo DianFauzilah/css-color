@@ -8,23 +8,99 @@ body {
   background-color: var(--white);
 }
 
-.h1-heading {
- /*  width: 422px;
-  height: 48px; */
+.h1 {
+  width: 422px;
+  height: 48px; 
   font-family: HelveticaNeue;
-  /* font-size: 40px; */
+  font-size: 40px; 
   font-weight: bold;
-  /*font-style: normal;
-  font-stretch: normal; */
+  font-style: normal;
+  font-stretch: normal; 
   line-height: 1.23;
- /*  letter-spacing: normal; */
+  letter-spacing: normal; 
   text-align: left;
   color: #373a3c;
 }
 
-.Fancy {
-  display: flex;  
+.h2 {
+  width: 388px;
+  height: 38px;
+  font-family: HelveticaNeue;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373a3c;
 }
+
+.h3 {
+  width: 295px;
+  height: 33px;
+  font-family: HelveticaNeue;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373a3c;
+}
+
+.h4 {
+  width: 253px;
+  height: 28px;
+  font-family: HelveticaNeue;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373a3c;
+}
+
+.h5 {
+  width: 211px;
+  height: 24px;
+  font-family: HelveticaNeue;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373a3c;
+}
+
+.h6 {
+  width: 169px;
+  height: 19px;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373a3c;
+}
+.Fancy {
+  display: flex;
+  /* color: #818a91; */
+}
+.text-style-1 {
+  font-size: 28px;
+  color: #373a3c;
+  margin-top: 28px;
+}
+
 
 .text-style-1 {
   color: #818a91;
@@ -42,6 +118,8 @@ body {
 .ul--circle {
   list-style-type: circle;
   color: #373a3c;
+  margin-left: 51px;
+  margin-top: -22px;
 }
 
 .Twitter {
@@ -69,8 +147,8 @@ body {
 }
 
 .Display{
-  margin-left: 899px;
-  margin-top: -1092px;
+  margin-left: 1004px;
+  margin-top: -1045px;
 }
 
 .Display-1 {
@@ -103,9 +181,9 @@ body {
 
 .line {
   border-left: 6px solid silver;
-  height: 112px; 
-  margin-left: 904px;
-  margin-top: 56px;
+  /* height: 112px; */
+  margin-left: 1011px;
+  margin-top: 123px;
 }
 .Blockquote {
   width: 623px;
@@ -169,7 +247,7 @@ body {
 .line1 {
   border-left: 6px solid silver;
   height: 112px; 
-  margin-left: 1532px;
+  margin-left: 1642px;
   margin-right: 100px;
   margin-top: 56px;
 }

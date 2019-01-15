@@ -1,0 +1,65 @@
+/*.Grid {
+  width: 1280%;
+  height: 1170%;
+  background-color: var(--white);
+} */
+
+.col-xs-1 {
+  width: 65%;
+  height: 60%;
+  background-color: #ededed;
+  margin: 30px;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.col-xs-2 {
+  width: 160%;
+  height: 148%;
+  background-color: #ededed;
+  text-align: center;
+  margin: 30px;
+  padding: 55px;
+  font-size: 20px;
+}
+
+.col-xs-3 {
+  width: 255%;
+  height: 148%;
+  background-color: #ededed;
+  margin: 30px;
+  text-align: center;
+  padding: 58px;
+  font-size: 20px;
+}
+
+.col-xs-4 {
+  width: 350%;
+  height: 148%;
+  background-color: #ededed;
+  margin: 30px;
+  text-align: center;
+  padding: 59px;
+  font-size: 20px;
+}
+
+.col-xs-5 {
+  width: 540%;
+  height: 148%;
+  background-color: #ededed;
+  margin: 30px;
+  text-align: center;
+  padding: 58px;
+  font-size: 20px;
+}
+
+.col-xs-6 {
+  width: 1110%;
+  height: 148%;
+  background-color: #ededed;
+  text-align: center;
+  margin: 30px;
+  padding: 76px;
+  font-size: 20px;
+}
