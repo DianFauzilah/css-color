@@ -3,8 +3,8 @@ body {
 }
 
 .Typography {
-  width: 1600px;
-  height: 1150px;
+  width: 1600%;
+  height: 1150%;
   background-color: var(--white);
 }
 

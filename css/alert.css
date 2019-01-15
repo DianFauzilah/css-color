@@ -2,6 +2,40 @@
   padding: 20px;
   background-color: #e7cecd;
   color: white;
+  border-radius: 3px;
+  color: #9f4f48;
+  line-height: 1.5;
+  font-family: HelveticaNeue;
+}
+
+.alert1 {
+  padding: 20px;
+  background-color: #e2eed8;
+  color: white;
+  border-radius: 3px;
+  color: #4b713d;
+  line-height: 1.5;
+  font-family: HelveticaNeue;
+}
+
+.alert2 {
+  padding: 20px;
+  background-color: #dcedf6;
+  color: white;
+  border-radius: 3px;
+  color: #3d708d;
+  line-height: 1.5;
+  font-family: HelveticaNeue;
+}
+
+.alert3 {
+  padding: 20px;
+  background-color: #fcf7e4;
+  color: white;
+  border-radius: 3px;
+  color: #876d40;
+  line-height: 1.5;
+  font-family: HelveticaNeue;
 }
 
 .closebtn {
@@ -16,5 +50,5 @@
 }
 
 .closebtn:hover {
-  color: black;
+  color: #373a3c;
 }
