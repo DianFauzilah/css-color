@@ -1,10 +1,11 @@
 ul.breadcrumb {
   width: 666px;
-  height: 49px;
+  /*height: 49px; */
   padding: 10px 16px;
   list-style: none;
   background-color: #dddddd;
   border-radius: 3px;
+  font-family: 'Lato';
 }
 ul.breadcrumb li {
   display: inline;

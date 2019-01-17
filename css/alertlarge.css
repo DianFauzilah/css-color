@@ -1,9 +1,10 @@
 .Background {
-  width: 573px;
+  width: 666px;
   height: 161px;
   border-radius: 4px;
   padding-top: 10px;
-  margin-top: 10px;
+  margin-top: 28px;
+  margin-left: 51px; 
 }
 
 .Background--8 {
@@ -39,10 +40,14 @@
 }
 
 .well{
+  font-weight: bold;
+  line-height: 1.21; 
   font-size: 24px;
   margin-top: 10px;
   margin-left: 13px;
-  font-family: HelveticaNeue;
+  text-align: left;
+  font-family: 'Lato';
+  margin-top: 1px;
 }
 
 .well--1 {
@@ -76,10 +81,10 @@
 .well--8 {
 	color: #004085;
 }
-.Text {
+.text {
   width: 543px;
   height: 109px;
-  font-family: HelveticaNeue;
+  font-family: 'Lato';
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -87,6 +92,37 @@
   line-height: 1.13;
   letter-spacing: normal;
   text-align: left;
-  color: #004085;
   margin-left: 13px;
+}
+
+.text--1 {
+	color: #004085;
+}
+
+.text--2 {
+	color: #464a4e;
+}
+
+.text--3 {
+	color: #155724;
+}
+
+.text--4 {
+	color: #721c24;
+}
+
+.text--5 {
+	color: #856404;
+}
+
+.text--6 {
+	color: #0c5460;
+}
+
+.text--7 {
+	color: #818182;
+}
+
+.text--7 {
+	color: #1b1e21;
 }

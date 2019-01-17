@@ -1,8 +1,9 @@
-.Jumbotron {
-  width: 906px;
-  height: 596px;
+.jumbotron {
+  width: 772px;
+  height: 482px;
   background-color: var(--white);
-  margin-top: 80px;
+  margin-top: 53px;
+  margin-left: 68px;
 }
 
 .Rectangle {
@@ -15,7 +16,7 @@
 .Hello-world {
   width: 440px;
   height: 92px;
-  font-family: HelveticaNeue;
+  font-family: 'Lato';
   font-size: 79px;
   font-weight: normal;
   font-style: normal;
@@ -29,7 +30,7 @@
 .paragrap {
   width: 702px;
   height: 55px;
-  font-family: HelveticaNeue;
+  font-family: 'Lato';
   font-size: 20px;
   font-weight: normal;
   font-style: normal;
@@ -40,10 +41,15 @@
   color: #373a3c;
 }
 
+.Line-97 {
+  width: 702px;
+  height: 0;
+}
+
 .paragrap2 {
   width: 663px;
   height: 45px;
-  font-family: HelveticaNeue;
+  font-family: 'Lato';
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -59,13 +65,13 @@
   height: 54px;
   border-radius: 4px;
   background-color: #1c7cd5;
-  font-family: HelveticaNeue;
+  font-family: 'Lato';
 }
 
 .more {
   width: 102px;
   height: 23px;
-  font-family: HelveticaNeue;
+  font-family: 'Lato';
   font-size: 20px;
   font-weight: normal;
   font-style: normal;

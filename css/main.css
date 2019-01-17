@@ -1,12 +1,10 @@
-
-   
 .square {
   display: flex;
   width: 100%;
 }
 
 .square > div {
-   width: 200px;
+  width: 200px;
   height: 200px;
   margin: 12px;
   text-align: center;
@@ -40,27 +38,27 @@
 }
 
 .square--square-13 {
-  background-color: #5cb85c;
+  background-color: #1c7cd5;
 }
 
 .square--square-14 {
-  background-color: #56c0e0;
+  background-color: #5cb85c;
 }
 
 .square--square-15 {
-  background-color: #f0ad4e;
+  background-color: #56c0e0;
 }
 
 .square--square-16 {
-  background-color: #d9534f;
+  background-color: #f0ad4e;
 }
 
 .square--square-43 {
-  background-color: #dcedf6;
+  background-color: #d9534f;
 }
 
 .square--square-48 {
-  background-color: #1c7cd5;
+  background-color: #dcedf6;
 }
 .square--square-44 {
   background-color: #e2eed8;

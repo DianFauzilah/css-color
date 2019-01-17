@@ -3,10 +3,10 @@ body {
 }
 
 .Typography {
-  width: 1600%;
-  height: 1150%;
+  width: 100%;
+  height: 100%;
   background-color: var(--white);
-  font-family: HelveticaNeue;
+  font-family: 'Lato';
   font-weight: bold;
   font-style: normal;
   font-stretch: normal; 
@@ -16,49 +16,37 @@ body {
 }
 
 .h--1 {
-  width: 422px;
-  height: 48px; 
   font-size: 40px; 
   line-height: 1.23;
 }
 
 .h--2 {
-  width: 388px;
-  height: 38px;
   font-size: 32px;
   line-height: 1.22;
 }
 
 .h--3 {
-  width: 295px;
-  height: 33px;
   font-size: 28px;
   line-height: 1.21;
 }
 
 .h--4 {
-  width: 253px;
-  height: 28px;
   font-size: 24px;
   line-height: 1.21;
 }
 
 .h--5 {
-  width: 211px;
-  height: 24px;
   font-size: 20px;
   line-height: 1.25;
 }
 
 .h--6 {
-  width: 169px;
-  height: 19px;
   font-size: 16px;
   line-height: 1.19;
 }
 .Fancy {
   display: flex;
-  /* color: #818a91; */
+
 }
 .text-style-1 {
   font-size: 28px;
@@ -74,23 +62,26 @@ body {
 .paragraph {
   line-height: 1.5;
   color: #373a3c;
+  font-size: 20px;
 }
 
 .ul--default {
   color: #373a3c;
+  font-size: 16px;
 }
 
 .ul--circle {
   list-style-type: circle;
   color: #373a3c;
   margin-left: 51px;
-  margin-top: -22px;
+  margin-top: -16px;
+  font-size: 16px;
 }
 
 .Twitter {
   width: 186px;
   height: 163px;
-  font-family: HelveticaNeue;
+  font-family: 'Lato';
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -112,34 +103,26 @@ body {
 }
 
 .Display{
-  margin-left: 1004px;
-  margin-top: -1045px;
+  margin-left: 805px;
+  margin-top: -954px;
 }
 
-.Display-1 {
-  width: 395px;
-  height: 111px;
+.Display--1 {
   font-size: 96px;
   line-height: 1.19;
 }
 
-.Display-2 {
-  width: 362px;
-  height: 103px;
+.Display--2 {
   font-size: 88px;
   line-height: 1.19;
 }
 
-.Display-3 {
-  width: 325px;
-  height: 92px;
+.Display--3 {
   font-size: 79px;
   line-height: 1.19;
 }
 
-.Display-4 {
-  width: 251px;
-  height: 71px;
+.Display--4 {
   font-size: 61px;
   line-height: 1.2;
 }
@@ -147,7 +130,7 @@ body {
 .line {
   border-left: 6px solid silver;
   /* height: 112px; */
-  margin-left: 1011px;
+  margin-left: 814px;
   margin-top: 123px;
 }
 .Blockquote {
@@ -164,7 +147,7 @@ body {
 .someone {
   width: 290px;
   height: 23px;
-  font-family: HelveticaNeue;
+  font-family: 'Lato';
   font-size: 20px;
   line-height: 1.2;
   text-align: left;
@@ -200,25 +183,25 @@ body {
 .someone1 {
   width: 290px;
   height: 23px;
-  font-family: HelveticaNeue;
+  font-family: 'Lato';
   font-size: 20px;
   line-height: 1.2;
   text-align: left;
   color: #818a91;
-  margin-left: -331px;
+  margin-left: -353px;
   margin-top: 15px;
 }
 
 .line1 {
   border-left: 6px solid silver;
   height: 112px; 
-  margin-left: 1642px;
+  margin-left: 1439px;
   margin-right: 100px;
   margin-top: 56px;
 }
 
 .hr {
   width: 21px;
-  margin-left: -64px;
+  margin-left: -65px;
   margin-top: -10px;
 }

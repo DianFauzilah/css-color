@@ -1,9 +1,10 @@
 .alert {
+  width: 666px;
   padding: 20px;
   color: white;
   border-radius: 3px;
   line-height: 1.5;
-  font-family: HelveticaNeue;
+  font-family: 'Lato';
 }
 
 .alert--4 {
