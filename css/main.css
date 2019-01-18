@@ -13,61 +13,240 @@
   display: inline-block;
 } 
 
-.square--square-1 { 
+.square--color-1 { 
   background-color: #373a3c;
 }
 
-.square--square-28 {
+.square--color-28 {
   background-color: #55595c;
 }
 
-.square--square-17 {
+.square--color-17 {
   background-color: #777777;
 }
 
-.square--square-2 {
+.square--color-2 {
   background-color: #818a91;
 }
 
-.square--square-23 {
+.square--color-23 {
   background-color: #dddddd;
+  border: 1px solid #373a3c;
 }
 
-.square--square-8 {
+.square--color-8 {
   background-color: #eceeef;
+  border: 1px solid #373a3c;
 }
 
-.square--square-13 {
+.square--color-13 {
   background-color: #1c7cd5;
 }
 
-.square--square-14 {
+.square--color-14 {
   background-color: #5cb85c;
 }
 
-.square--square-15 {
+.square--color-15 {
   background-color: #56c0e0;
 }
 
-.square--square-16 {
+.square--color-16 {
   background-color: #f0ad4e;
 }
 
-.square--square-43 {
+.square--color-43 {
   background-color: #d9534f;
 }
 
-.square--square-48 {
+.square--color-48 {
   background-color: #dcedf6;
+  border: 1px solid #373a3c;
 }
-.square--square-44 {
+.square--color-44 {
   background-color: #e2eed8;
+  border: 1px solid #373a3c;
 }
 
-.square--square-46 {
+.square--color-46 {
   background-color: #fcf7e4;
+  border: 1px solid #373a3c;
 }
 
-.square--square-47 {
+.square--color-47 {
   background-color: #efdfdf;
+  border: 1px solid #373a3c;
+}
+
+body {
+  background-color: #fafafa;
+
+}
+a {
+  padding: 10px;
+}
+.Path-1 {
+  width: 249px;
+  height: 790px;
+  box-shadow: -5px 0 25px 0 rgba(0, 0, 0, 0.04);
+  background-color: #fff; 
+  /*position: fixed; */
+}
+
+.Style-Guide {
+  width: 76px;
+  height: 19px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #263238;
+}
+
+.Dian-Fauzilah {
+  width: 88px;
+  height: 15px;
+  font-family: Lato;
+  font-size: 11px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9a9a9a;
+  margin-bottom: 20px;
+}
+
+.Components {
+  width: 86px;
+  height: 19px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #263238;
+  margin-top: 90px;
+}
+
+.Rectangle7 {
+  width: 248.7px;
+  height: 40px;
+  background-color: #fafafa;
+}
+
+.color {
+  font-family: 'Lato';
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3f7ccc;
+  background color: #fafafa;
+  padding: 10px;
+}
+
+.Rectangle-7 {
+  width: 219px;
+  height: 40px;
+  background-color: var(--white);
+}
+
+.Typography {
+  width: 71px;
+  height: 18px;
+  font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+.grid {
+  /*width: 41px;
+  height: 18px; */
+  font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+.breadcrumb {
+  /*width: 28px;
+  height: 18px; */
+  font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+.alert {
+font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+.alertlarge {
+font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+.jumbotron1 {
+font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+.Rectangle-21 {
+  width: 1027px;
+  height: 740px;
+  border-radius: 4px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  margin-left: 291px;
+  margin-top: -255px;
 }

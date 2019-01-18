@@ -1,12 +1,13 @@
-
-.path {
-	width: 1366px;
-	height: 790px;
+body {
 	background-color: #fafafa;
+
+}
+a {
+	padding: 10px;
 }
 .path-1 {
-  width: 250px;
-  height: 844px;
+  width: 249px;
+  height: 790px;
   box-shadow: -5px 0 25px 0 rgba(0, 0, 0, 0.04);
   background-color: #fff; 
   position: fixed;
@@ -94,6 +95,8 @@
   letter-spacing: normal;
   text-align: left;
   color: #5c5c5c;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 .grid {
@@ -148,12 +151,41 @@ font-family: 'Lato';
   color: #5c5c5c;
 }
 
+.jumbotron {
+font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
 .Rectangle-21 {
-  width: 1036px;
-  height: 790px;
+  width: 1027px;
+  height: 569px;
   border-radius: 4px;
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.05);
   background-color: #fff;
-  margin-left: 276px;
-  margin-top: -234px;
+  margin-left: 291px;
+  margin-top: -255px;
+}
+
+.alert--1 {
+	margin-top: 45px;
+	margin-left: 37px;
+}
+
+.alert--2 {
+	margin-left: 37px;
+}
+
+.alert--3 {
+	margin-left: 37px;
+}
+
+.alert--4 {
+	margin-left: 37px;
 }
