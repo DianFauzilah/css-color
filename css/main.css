@@ -241,6 +241,42 @@ font-family: 'Lato';
   color: #5c5c5c;
 }
 
+.cards {
+font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+.list {
+font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+.tables {
+font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
 .Rectangle-21 {
   width: 1027px;
   height: 740px;

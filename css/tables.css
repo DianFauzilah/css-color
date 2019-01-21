@@ -1,7 +1,14 @@
 body {
+	padding-right: 100px;
 	background-color: #fafafa;
-
+	overflow-y: auto;
 }
+
+.table {
+	margin-left: 56px;
+	margin-top: 72px;
+}
+
 a {
 	padding: 10px;
 }
@@ -11,6 +18,7 @@ a {
   box-shadow: -5px 0 25px 0 rgba(0, 0, 0, 0.04);
   background-color: #fff; 
   position: fixed;
+  margin-top: -40px;
 }
 
 .Style-Guide {
@@ -113,7 +121,7 @@ a {
   color: #5c5c5c;
 }
 
-.breadcrumb {
+.breadcrumb1 {
   /*width: 28px;
   height: 18px; */
   font-family: 'Lato';
@@ -151,7 +159,7 @@ font-family: 'Lato';
   color: #5c5c5c;
 }
 
-.jumbotron {
+.jumbotron1 {
 font-family: 'Lato';
   font-size: 13px;
   font-weight: normal;
@@ -200,28 +208,18 @@ font-family: 'Lato';
 }
 
 .Rectangle-21 {
-  width: 1027px;
-  height: 569px;
+  width: 1015px;
+  height: 3787px;
   border-radius: 4px;
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.05);
   background-color: #fff;
   margin-left: 291px;
-  margin-top: -255px;
+  margin-top: 41px;
+  padding-top: 10px;
+  padding-right: 100px;
+  padding-bottom: 72px;
 }
 
-.alert--1 {
-	margin-top: 45px;
-	margin-left: 37px;
-}
-
-.alert--2 {
-	margin-left: 37px;
-}
-
-.alert--3 {
-	margin-left: 37px;
-}
-
-.alert--4 {
-	margin-left: 37px;
+.alert {
+	margin-left: -10px;
 }

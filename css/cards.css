@@ -1,0 +1,327 @@
+body {
+  overflow: auto;
+  background-color: #fafafa;
+}
+
+.card {
+  border-color : green;
+  width: 340px;
+  height: auto;
+  background-color: var(--white);	
+  margin-top: 65px;
+  margin-left: 68px;
+}
+
+.card-img {
+  width: 340px;
+  height: 180px;
+  background-color: #55595c;
+}
+
+.card-title {
+  width: 253px;
+  height: 29px;
+  font-family: 'Lato';
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373a3c;
+}
+
+.Card-subtitle {
+  width: 100px;
+  height: 21px;
+  font-family: 'Lato';
+  font-size: 17px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: left;
+  color: #777777;
+}
+
+.card-text {
+width: 298px;
+  height: 69px;
+  font-family: 'Lato';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373a3c;
+}
+
+.btn {
+  width: 140px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #1c7cd5;
+}
+
+.Card-link {
+  width: 63px;
+  height: 18px;
+  font-family: 'Lato';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1c7cd5;
+}
+
+.card--2 {
+	margin-left: 418px;
+    margin-top: -912px;
+}
+
+.card-header {
+  width: 340px;
+  height: 51px;
+  background-color: var(--silver);
+}
+
+.card--3 {
+	margin-left: 418px;
+}
+
+.card-footer {
+  width: 340px;
+  height: 51px;
+  background-color: var(--silver);
+  color : #777777;
+}
+
+.card--4 {
+	margin-left: 418px;
+}
+
+body {
+	background-color: #fafafa;
+
+}
+a {
+	padding: 10px;
+}
+.path-1 {
+  width: 249px;
+  height: 790px;
+  box-shadow: -5px 0 25px 0 rgba(0, 0, 0, 0.04);
+  background-color: #fff; 
+  position: fixed;
+  margin-top: -34px;
+}
+
+.Style-Guide {
+  width: 76px;
+  height: 19px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #263238;
+}
+
+.Dian-Fauzilah {
+  width: 88px;
+  height: 15px;
+  font-family: Lato;
+  font-size: 11px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9a9a9a;
+  margin-bottom: 20px;
+}
+
+.Components {
+  width: 86px;
+  height: 19px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #263238;
+  margin-top: 90px;
+}
+
+.Rectangle7 {
+  width: 248.7px;
+  height: 40px;
+  background-color: #fafafa;
+}
+
+.color {
+  font-family: 'Lato';
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3f7ccc;
+  background color: #fafafa;
+  padding: 10px;
+}
+
+.Rectangle-7 {
+  width: 219px;
+  height: 40px;
+  background-color: var(--white);
+}
+
+.Typography {
+  width: 71px;
+  height: 18px;
+  font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.grid {
+  /*width: 41px;
+  height: 18px; */
+  font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+.breadcrumb1 {
+  /*width: 28px;
+  height: 18px; */
+  font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+.alert {
+font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+.alertlarge {
+font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+.jumbotron1 {
+font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+.cards {
+font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+.list {
+font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+.tables {
+font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+
+.Rectangle-21 {
+  width: 1027px;
+  height: 1362px;
+  border-radius: 4px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  margin-left: 291px;
+  margin-top: 36px;
+  padding-top: 10px;
+  
+}
+
+.alert {
+	margin-left: -10px;
+}

@@ -1,3 +1,37 @@
+.list {
+  width: 252px;
+  height: 52px;
+  background-color: var(--white);
+  margin-top: 52px;
+  margin-left: 58px;
+}
+
+.list--1 {
+  width: 252px;
+  height: 53px;
+  margin-left: 337px;
+  margin-top: -53px;
+}
+
+.list--2 {
+  width: 252px;
+  height: 53px;
+  margin-left: 667px;
+  margin-top: -103px;
+}
+
+.list--3 {
+  width: 319.2px;
+  height: 53px;
+  margin-top:272px;
+}
+
+.list--4 {
+  width: 400px;
+  height: 149px;
+  margin-top:182px;
+}
+
 body {
 	background-color: #fafafa;
 
@@ -11,6 +45,7 @@ a {
   box-shadow: -5px 0 25px 0 rgba(0, 0, 0, 0.04);
   background-color: #fff; 
   position: fixed;
+  margin-top: -38px;
 }
 
 .Style-Guide {
@@ -113,7 +148,7 @@ a {
   color: #5c5c5c;
 }
 
-.breadcrumb {
+.breadcrumb1 {
   /*width: 28px;
   height: 18px; */
   font-family: 'Lato';
@@ -151,7 +186,7 @@ font-family: 'Lato';
   color: #5c5c5c;
 }
 
-.jumbotron {
+.jumbotron1 {
 font-family: 'Lato';
   font-size: 13px;
   font-weight: normal;
@@ -201,27 +236,20 @@ font-family: 'Lato';
 
 .Rectangle-21 {
   width: 1027px;
-  height: 569px;
+  height: 1041px;
   border-radius: 4px;
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.05);
   background-color: #fff;
   margin-left: 291px;
-  margin-top: -255px;
+  margin-top: 39px;
+  padding-top: 52px;
+  padding-left: 58px;
 }
 
-.alert--1 {
-	margin-top: 45px;
-	margin-left: 37px;
+.alert {
+	margin-left: -10px;
 }
 
-.alert--2 {
-	margin-left: 37px;
-}
-
-.alert--3 {
-	margin-left: 37px;
-}
-
-.alert--4 {
-	margin-left: 37px;
+.list {
+	margin-left: -0px;
 }
