@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
   overflow: auto;
   background-color: #fafafa;
@@ -12,6 +16,13 @@ body {
   margin-left: 68px;
 }
 
+.square--color-47 {
+	width: 340px;
+  height: auto;
+  background-color: transparent;
+  border: 1px solid #373a3c;
+  padding-right: 10px;
+}
 .card-img {
   width: 340px;
   height: 180px;
@@ -309,6 +320,53 @@ font-family: 'Lato';
   color: #5c5c5c;
 }
 
+.forms {
+font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+.input-group {
+font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+.navs {
+font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+.navbar {
+font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
 
 .Rectangle-21 {
   width: 1027px;
@@ -322,6 +380,3 @@ font-family: 'Lato';
   
 }
 
-.alert {
-	margin-left: -10px;
-}

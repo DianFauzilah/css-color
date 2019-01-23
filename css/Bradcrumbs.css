@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+	background-color: #fafafa;
+}
+a {
+	padding: 10px;
+}
+
 ul.breadcrumb {
   width: 666px;
-  /*height: 49px; */
   padding: 10px 16px;
   list-style: none;
   background-color: #dddddd;
@@ -29,23 +37,24 @@ ul.breadcrumb li a:hover {
 
 body {
 	background-color: #fafafa;
-
 }
 a {
 	padding: 10px;
 }
-.path-1 {
+.Sidebar {
   width: 249px;
-  height: 100%;
+  height: 790px;
   box-shadow: -5px 0 25px 0 rgba(0, 0, 0, 0.04);
   background-color: #fff; 
   position: fixed;
+  margin-top: -7px;
+  margin-left: -6px;
 }
 
-.Style-Guide {
+.Sidebar__Header--1 {
   width: 76px;
   height: 19px;
-  font-family: Lato;
+  font-family: 'Lato';
   font-size: 14px;
   font-weight: 600;
   font-style: normal;
@@ -56,10 +65,10 @@ a {
   color: #263238;
 }
 
-.Dian-Fauzilah {
+.Sidebar__Header--2 {
   width: 88px;
   height: 15px;
-  font-family: Lato;
+  font-family: 'Lato';
   font-size: 11px;
   font-weight: 600;
   font-style: normal;
@@ -71,10 +80,10 @@ a {
   margin-bottom: 20px;
 }
 
-.Components {
+.Sidebar__Header--3 {
   width: 86px;
   height: 19px;
-  font-family: Lato;
+  font-family: 'Lato';
   font-size: 14px;
   font-weight: 600;
   font-style: normal;
@@ -86,18 +95,19 @@ a {
   margin-top: 90px;
 }
 
-.Rectangle7 {
+.Sidebar-menu {
   width: 248.7px;
   height: 40px;
   background-color: #fafafa;
 }
 
-.color {
+.Nav--active__link {
   font-family: 'Lato';
   font-size: 24px;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
+  text-decoration: none;
   line-height: 1.38;
   letter-spacing: normal;
   text-align: left;
@@ -112,13 +122,14 @@ a {
   background-color: var(--white);
 }
 
-.Typography {
+.Sidebar--item__link {
   width: 71px;
   height: 18px;
   font-family: 'Lato';
   font-size: 13px;
   font-weight: normal;
   font-style: normal;
+  text-decoration: none;
   font-stretch: normal;
   line-height: 1.38;
   letter-spacing: normal;
@@ -128,114 +139,24 @@ a {
   margin-top: 10px;
 }
 
-.grid {
-  /*width: 41px;
-  height: 18px; */
-  font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
+.Sidebar--item__link:hover {
+  color:#fff;
+  text-shadow:
+    0px 1px 0px #3f7ccc,
+    0px 0px 3px #3f7ccc,
+    0px 0px 5px #3f7ccc,
+    0px 0px 30px #3f7ccc,
+    0px 3px 50px #3f7ccc;
 }
 
-.breadcrumb {
-  /*width: 28px;
-  height: 18px; */
-  font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.alert {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.alertlarge {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.jumbotron {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.cards {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.list {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.tables {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.Rectangle-21 {
+.box {
   width: 986px;
   height: 540px;
   border-radius: 4px;
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.05);
   background-color: #fff;
   margin-left: 291px;
-  margin-top: -249px;
+  margin-top: -384px;
   padding-top: 32px;
   padding-left: 41px;
 }

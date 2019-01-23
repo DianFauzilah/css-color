@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 .list {
   width: 252px;
   height: 52px;
@@ -223,6 +227,54 @@ font-family: 'Lato';
 }
 
 .tables {
+font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+.forms {
+font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+.input-group {
+font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+.navs {
+font-family: 'Lato';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5c5c5c;
+}
+
+.navbar {
 font-family: 'Lato';
   font-size: 13px;
   font-weight: normal;
