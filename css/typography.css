@@ -11,7 +11,6 @@ a {
 
 .row {
   display: flex;
-    flex-wrap: wrap;
 }
 .col-6 {
   width: 50%;
@@ -85,6 +84,13 @@ a {
   margin-bottom: 20px;
 }
 
+.lead1 {
+  line-height: 1.5;
+  color: #373a3c;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
 .ul--default {
   color: #373a3c;
   font-size: 16px;
@@ -132,8 +138,6 @@ a {
   letter-spacing: normal;
   text-align: left;
   color: #373a3c;
-  padding-left: 611;
-  margin-left: 460px;
   }
 
 
@@ -156,12 +160,10 @@ a {
   font-size: 61px;
   line-height: 1.2;
 }
-/*
+
 .line {
-  border-left: 6px solid silver;
-  /* height: 112px; 
-  margin-left: 814px;
-  margin-top: 123px;
+  border-left: 4px solid silver; 
+  height: 112px;
 }
 .Blockquote {
   width: 623px;
@@ -169,9 +171,6 @@ a {
   font-size: 20px;
   line-height: 1.5;
   text-align: left;
-  margin-left: 45px;
-  margin-top: 75px;
-  margin-right: 1px;
 }
 
 .someone {
@@ -205,9 +204,6 @@ a {
   line-height: 1.5;
   text-align: right;
   color: #373a3c;
-  margin-left: -668px;
-  margin-top: 75px;
-  margin-right: 1px;
 }
 
 .someone1 {
@@ -218,23 +214,16 @@ a {
   line-height: 1.2;
   text-align: left;
   color: #818a91;
-  margin-left: -353px;
-  margin-top: 15px;
 }
 
 .line1 {
   border-left: 6px solid silver;
   height: 112px; 
-  margin-left: 1439px;
-  margin-right: 100px;
-  margin-top: 56px;
 }
 
 .hr {
   width: 21px;
-  margin-left: -65px;
-  margin-top: -10px;
-} */
+} 
 
 .Sidebar {
   width: 249px;

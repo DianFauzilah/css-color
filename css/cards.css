@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 * {
 	box-sizing: border-box;
 }
@@ -8,7 +10,6 @@ body {
 }
 
 .card {
-  border-color : green;
   width: 340px;
   height: auto;
   background-color: var(--white);	
@@ -16,7 +17,7 @@ body {
   margin-left: 68px;
 }
 
-.square--color{
+.card-body{
   width: 340px;
   height: auto;
   background-color: transparent;
@@ -101,9 +102,10 @@ width: 298px;
     margin-top: -912px;
 }
 
+
 .square--color1 {
   width: 340px;
-  height: auto;
+  height: 51px;
   background-color: #dddddd;
   border: 1px solid #dddddd;
   padding-right: 10px;
@@ -138,7 +140,7 @@ width: 298px;
 .Sidebar__Header--1 {
   width: 76px;
   height: 19px;
-  font-family: Lato;
+  font-family: 'Lato';
   font-size: 14px;
   font-weight: 600;
   font-style: normal;
@@ -152,7 +154,7 @@ width: 298px;
 .Sidebar__Header--2 {
   width: 88px;
   height: 15px;
-  font-family: Lato;
+  font-family: 'Lato';
   font-size: 11px;
   font-weight: 600;
   font-style: normal;
@@ -167,7 +169,7 @@ width: 298px;
 .Sidebar__Header--3 {
   width: 86px;
   height: 19px;
-  font-family: Lato;
+  font-family: 'Lato';
   font-size: 14px;
   font-weight: 600;
   font-style: normal;
