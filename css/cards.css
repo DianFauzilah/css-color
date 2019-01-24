@@ -12,16 +12,18 @@ body {
   width: 340px;
   height: auto;
   background-color: var(--white);	
-  margin-top: 65px;
+  margin-top: 35px;
   margin-left: 68px;
 }
 
-.square--color-47 {
-	width: 340px;
+.square--color{
+  width: 340px;
   height: auto;
   background-color: transparent;
-  border: 1px solid #373a3c;
+  border: 1px solid #dddddd;
   padding-right: 10px;
+  padding-left: 21px;
+  padding-bottom: 24px;
 }
 .card-img {
   width: 340px;
@@ -34,7 +36,7 @@ body {
   height: 29px;
   font-family: 'Lato';
   font-size: 25px;
-  font-weight: 500;
+  font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.2;
@@ -72,10 +74,11 @@ width: 298px;
 }
 
 .btn {
-  width: 140px;
+	width: 140px;
   height: 40px;
   border-radius: 4px;
   background-color: #1c7cd5;
+  color: #ffff;
 }
 
 .Card-link {
@@ -86,6 +89,7 @@ width: 298px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
+  text-decoration: none;
   line-height: 1.5;
   letter-spacing: normal;
   text-align: left;
@@ -97,10 +101,14 @@ width: 298px;
     margin-top: -912px;
 }
 
-.card-header {
+.square--color1 {
   width: 340px;
-  height: 51px;
-  background-color: var(--silver);
+  height: auto;
+  background-color: #dddddd;
+  border: 1px solid #dddddd;
+  padding-right: 10px;
+  padding-left: 21px;
+  padding-bottom: 24px;
 }
 
 .card--3 {
@@ -118,14 +126,7 @@ width: 298px;
 	margin-left: 418px;
 }
 
-body {
-	background-color: #fafafa;
-
-}
-a {
-	padding: 10px;
-}
-.path-1 {
+.Sidebar {
   width: 249px;
   height: 790px;
   box-shadow: -5px 0 25px 0 rgba(0, 0, 0, 0.04);
@@ -134,7 +135,7 @@ a {
   margin-top: -34px;
 }
 
-.Style-Guide {
+.Sidebar__Header--1 {
   width: 76px;
   height: 19px;
   font-family: Lato;
@@ -148,7 +149,7 @@ a {
   color: #263238;
 }
 
-.Dian-Fauzilah {
+.Sidebar__Header--2 {
   width: 88px;
   height: 15px;
   font-family: Lato;
@@ -163,7 +164,7 @@ a {
   margin-bottom: 20px;
 }
 
-.Components {
+.Sidebar__Header--3 {
   width: 86px;
   height: 19px;
   font-family: Lato;
@@ -178,18 +179,19 @@ a {
   margin-top: 90px;
 }
 
-.Rectangle7 {
+.Sidebar__menu {
   width: 248.7px;
   height: 40px;
   background-color: #fafafa;
 }
 
-.color {
+.Nav__active--link {
   font-family: 'Lato';
   font-size: 24px;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
+  text-decoration: none;
   line-height: 1.38;
   letter-spacing: normal;
   text-align: left;
@@ -204,13 +206,14 @@ a {
   background-color: var(--white);
 }
 
-.Typography {
+.Sidebar__nav--link {
   width: 71px;
   height: 18px;
   font-family: 'Lato';
   font-size: 13px;
   font-weight: normal;
   font-style: normal;
+  text-decoration: none;
   font-stretch: normal;
   line-height: 1.38;
   letter-spacing: normal;
@@ -220,155 +223,17 @@ a {
   margin-top: 10px;
 }
 
-.grid {
-  /*width: 41px;
-  height: 18px; */
-  font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
+.Sidebar__nav--link:hover {
+  color:#fff;
+  text-shadow:
+    0px 1px 0px #3f7ccc,
+    0px 0px 3px #3f7ccc,
+    0px 0px 5px #3f7ccc,
+    0px 0px 30px #3f7ccc,
+    0px 3px 50px #3f7ccc;
 }
 
-.breadcrumb1 {
-  /*width: 28px;
-  height: 18px; */
-  font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.alert {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.alertlarge {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.jumbotron1 {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.cards {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.list {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.tables {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.forms {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.input-group {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.navs {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.navbar {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.Rectangle-21 {
+.box {
   width: 1027px;
   height: 1362px;
   border-radius: 4px;
@@ -376,7 +241,6 @@ font-family: 'Lato';
   background-color: #fff;
   margin-left: 291px;
   margin-top: 36px;
-  padding-top: 10px;
-  
+  padding-top: 10px; 
 }
 

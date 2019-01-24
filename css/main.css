@@ -192,13 +192,13 @@ a {
   margin-top: 90px;
 }
 
-.Sidebar-menu {
+.Sidebar__menu {
   width: 248.7px;
   height: 40px;
   background-color: #fafafa;
 }
 
-.Nav--active__link {
+.Nav__active--link {
   font-family: 'Lato';
   font-size: 24px;
   font-weight: 600;
@@ -220,7 +220,7 @@ a {
   background-color: var(--white);
 }
 
-.Sidebar--item__link {
+.Sidebar__nav--link {
   width: 71px;
   height: 18px;
   font-family: 'Lato';
@@ -237,7 +237,7 @@ a {
   margin-top: 10px;
 }
 
-.Sidebar--item__link:hover {
+.Sidebar__nav--link:hover {
   color:#fff;
   text-shadow:
     0px 1px 0px #3f7ccc,

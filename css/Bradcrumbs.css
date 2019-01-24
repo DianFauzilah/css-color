@@ -8,7 +8,9 @@ a {
 }
 
 ul.breadcrumb {
-  width: 666px;
+  max-width: 666px;
+  max-height: 49px;
+  width: auto;
   padding: 10px 16px;
   list-style: none;
   background-color: #dddddd;
@@ -35,12 +37,6 @@ ul.breadcrumb li a:hover {
   padding: 10px;
 }
 
-body {
-	background-color: #fafafa;
-}
-a {
-	padding: 10px;
-}
 .Sidebar {
   width: 249px;
   height: 790px;
@@ -95,13 +91,13 @@ a {
   margin-top: 90px;
 }
 
-.Sidebar-menu {
+.Sidebar__menu {
   width: 248.7px;
   height: 40px;
   background-color: #fafafa;
 }
 
-.Nav--active__link {
+.Nav__active--link {
   font-family: 'Lato';
   font-size: 24px;
   font-weight: 600;
@@ -122,7 +118,7 @@ a {
   background-color: var(--white);
 }
 
-.Sidebar--item__link {
+.Sidebar__nav--link {
   width: 71px;
   height: 18px;
   font-family: 'Lato';
@@ -139,7 +135,7 @@ a {
   margin-top: 10px;
 }
 
-.Sidebar--item__link:hover {
+.Sidebar__nav--link:hover {
   color:#fff;
   text-shadow:
     0px 1px 0px #3f7ccc,

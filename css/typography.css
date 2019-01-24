@@ -11,74 +11,77 @@ a {
 
 .row {
   display: flex;
-  margin-right: 85px;
-  margin-left: 85px;
-  flex-wrap: nowrap;
+    flex-wrap: wrap;
+}
+.col-6 {
+  width: 50%;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 
-.col-6 {
-  width: 100%;
-  height: 100%;
-  background-color: var(--white);
+.heading {
+  width: 422px;
+  height: 48px;
   font-family: 'Lato';
+  font-size: 40px;
   font-weight: bold;
   font-style: normal;
-  font-stretch: normal; 
-  letter-spacing: normal; 
+  font-stretch: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
   text-align: left;
   color: #373a3c;
-  margin-bottom: 31px;
 }
 
-.h--1 {
+.h1 {
   font-size: 40px; 
   line-height: 1.23;
   margin-top: 48px;
 }
 
-.h--2 {
+.h2 {
   font-size: 32px;
   line-height: 1.22;
 }
 
-.h--3 {
+.h3 {
   font-size: 28px;
   line-height: 1.21;
 }
 
-.h--4 {
+.h4 {
   font-size: 24px;
   line-height: 1.21;
 }
 
-.h--5 {
+.h5 {
   font-size: 20px;
   line-height: 1.25;
 }
 
-.h--6 {
+.h6 {
   font-size: 16px;
   line-height: 1.19;
 }
+
 .Fancy {
   display: flex;
-  margin-top: 89px;
-  margin-bottom: 50px;
-}
-.text-style-1 {
-  font-size: 20px;
+  font-size: 22px;
   color: #373a3c;
-  margin-top: 32px;
 }
-
-.text-style-1 {
+.text-muted {
   color: #818a91;
+  font-size: 18px;
 }
 
-.paragraph {
+.lead {
   line-height: 1.5;
   color: #373a3c;
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 20px;
 }
 
@@ -107,8 +110,9 @@ a {
   letter-spacing: normal;
   text-align: left;
   color: #373a3c;
-  margin-left: 497px;
+  margin-left: 544px;
   margin-top: -72px;
+  margin-bottom: 83px;
 }
 
 .Twitter-Inc {
@@ -119,9 +123,22 @@ a {
   color: #1c7cd5;
 }
 
+.display {
+  font-family: 'Lato';
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #373a3c;
+  padding-left: 611;
+  margin-left: 460px;
+  }
+
 
 .Display--1 {
-  font-size: 96px;
+  font-size: 90px;
   line-height: 1.19;
 }
 
@@ -139,10 +156,10 @@ a {
   font-size: 61px;
   line-height: 1.2;
 }
-
+/*
 .line {
   border-left: 6px solid silver;
-  /* height: 112px; */
+  /* height: 112px; 
   margin-left: 814px;
   margin-top: 123px;
 }
@@ -217,22 +234,21 @@ a {
   width: 21px;
   margin-left: -65px;
   margin-top: -10px;
-}
+} */
 
 .Sidebar {
   width: 249px;
   height: 790px;
   box-shadow: -5px 0 25px 0 rgba(0, 0, 0, 0.04);
   background-color: #fff; 
-  position: fixed;
-  margin-top: -34px;
+  margin-top: -8px;
   margin-left: -6px;
 }
 
 .Sidebar__Header--1 {
   width: 76px;
   height: 19px;
-  font-family: 'Lato';
+  font-family: Lato;
   font-size: 14px;
   font-weight: 600;
   font-style: normal;
@@ -246,7 +262,7 @@ a {
 .Sidebar__Header--2 {
   width: 88px;
   height: 15px;
-  font-family: 'Lato';
+  font-family: Lato;
   font-size: 11px;
   font-weight: 600;
   font-style: normal;
@@ -261,7 +277,7 @@ a {
 .Sidebar__Header--3 {
   width: 86px;
   height: 19px;
-  font-family: 'Lato';
+  font-family: Lato;
   font-size: 14px;
   font-weight: 600;
   font-style: normal;
@@ -273,13 +289,13 @@ a {
   margin-top: 90px;
 }
 
-.Sidebar-menu {
+.Sidebar__menu {
   width: 248.7px;
   height: 40px;
   background-color: #fafafa;
 }
 
-.Nav--active__link {
+.Nav__active--link {
   font-family: 'Lato';
   font-size: 24px;
   font-weight: 600;
@@ -300,15 +316,15 @@ a {
   background-color: var(--white);
 }
 
-.Sidebar--item__link {
+.Sidebar__nav--link {
   width: 71px;
   height: 18px;
   font-family: 'Lato';
   font-size: 13px;
   font-weight: normal;
   font-style: normal;
-  font-stretch: normal;
   text-decoration: none;
+  font-stretch: normal;
   line-height: 1.38;
   letter-spacing: normal;
   text-align: left;
@@ -317,12 +333,28 @@ a {
   margin-top: 10px;
 }
 
+.Sidebar__nav--link:hover {
+  color:#fff;
+  text-shadow:
+    0px 1px 0px #3f7ccc,
+    0px 0px 3px #3f7ccc,
+    0px 0px 5px #3f7ccc,
+    0px 0px 30px #3f7ccc,
+    0px 3px 50px #3f7ccc;
+}
+
 .box {
   width: 100%;
-  height: 1060px;
+  max-width: 1600px;
+  max-height: 1150px;
+  height: 1150px;
   border-radius: 4px;
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.05);
   background-color: #fff;
-  margin-left: 291px;
-  margin-top: 35px;
+  margin-left: 286px;
+  margin-top: -752px;
+  padding: 20px; 
+  margin-bottom: 44px;
+  margin-right: 40px; 
+  max-width: 1036px;
 }
