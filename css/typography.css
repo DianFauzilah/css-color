@@ -225,6 +225,8 @@ a {
   border-left: 4px solid silver;
   height: 112px; 
   position: right;
+  margin-left: 661px;
+  margin-top: -96px;
 }
 
 .hr {
@@ -239,6 +241,7 @@ a {
   margin-top: -41px;
   margin-left: -6px;
   position: fixed;
+  padding-top: 19px;
 }
 
 .Sidebar__Header--1 {
@@ -253,6 +256,7 @@ a {
   letter-spacing: normal;
   text-align: left;
   color: #263238;
+  margin-left: 20px;
 }
 
 .Sidebar__Header--2 {
@@ -268,6 +272,7 @@ a {
   text-align: left;
   color: #9a9a9a;
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .Sidebar__Header--3 {
@@ -282,7 +287,9 @@ a {
   letter-spacing: normal;
   text-align: left;
   color: #263238;
-  margin-top: 90px;
+  margin-top: 70px;
+  margin-left: 20px;
+  margin-bottom: 15px;
 }
 
 .Sidebar__menu {
@@ -293,17 +300,18 @@ a {
 
 .Nav__active--link {
   font-family: 'Lato';
-  font-size: 24px;
+  font-size: 14px;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
   text-decoration: none;
-  line-height: 1.38;
+  line-height: 2.53;
   letter-spacing: normal;
   text-align: left;
   color: #3f7ccc;
   background color: #fafafa;
   padding: 10px;
+  margin-left: 12px;
 }
 
 .Rectangle-7 {
@@ -321,12 +329,13 @@ a {
   font-style: normal;
   text-decoration: none;
   font-stretch: normal;
-  line-height: 1.38;
+  line-height: 2;
   letter-spacing: normal;
   text-align: left;
   color: #5c5c5c;
   padding: 10px;
   margin-top: 10px;
+  margin-left: 12px;
 }
 
 .Sidebar__nav--link:hover {

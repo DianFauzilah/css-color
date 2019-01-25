@@ -154,6 +154,7 @@ width: 298px;
   background-color: #fff; 
   position: fixed;
   margin-top: -34px;
+  padding-top: 19px;
 }
 
 .Sidebar__Header--1 {
@@ -168,6 +169,7 @@ width: 298px;
   letter-spacing: normal;
   text-align: left;
   color: #263238;
+  margin-left: 20px;
 }
 
 .Sidebar__Header--2 {
@@ -183,6 +185,7 @@ width: 298px;
   text-align: left;
   color: #9a9a9a;
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .Sidebar__Header--3 {
