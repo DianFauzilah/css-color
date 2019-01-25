@@ -27,6 +27,10 @@ body {
   padding-bottom: 24px;
   font-size: 16px;
 }
+
+.card-body1{
+  height: 53px;
+}
 .card-img {
   width: 340px;
   height: 180px;
@@ -113,6 +117,19 @@ width: 298px;
   padding-right: 10px;
   padding-left: 21px;
   padding-bottom: 24px;
+  padding: 16px 247px 15px 21px;
+}
+
+.footer {
+  width: 340px;
+  height: 51px;
+  background-color: #dddddd;
+  border: 1px solid #dddddd;
+  padding-right: 10px;
+  padding-left: 21px;
+  padding-bottom: 24px;
+  color: #777777;
+  padding: 16px 247px 15px 21px;
 }
 
 .card--3 {
