@@ -25,6 +25,7 @@ body {
   padding-right: 10px;
   padding-left: 21px;
   padding-bottom: 24px;
+  font-size: 16px;
 }
 .card-img {
   width: 340px;
@@ -95,6 +96,7 @@ width: 298px;
   letter-spacing: normal;
   text-align: left;
   color: #1c7cd5;
+  margin-right: 39px;
 }
 
 .card--2 {
@@ -103,7 +105,7 @@ width: 298px;
 }
 
 
-.square--color1 {
+.header {
   width: 340px;
   height: 51px;
   background-color: #dddddd;
