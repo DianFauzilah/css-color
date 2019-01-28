@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
 * {
 	box-sizing: border-box;
 }
@@ -8,27 +11,81 @@ body {
 	overflow-y: auto;
 }
 
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
 .table {
-	margin-left: 56px;
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: 56px;
 	margin-top: 72px;
 }
 
-a {
-	padding: 10px;
+.table th, .table td {
+  padding: 8px;
+  text-align: left;
+  border-top: 1px solid #ddd;
+  vertical-align: top;
 }
-.path-1 {
+
+.table-dark {
+    color: #fff;
+    background-color: #373a3c;
+}
+
+.table-dark thead th {
+    border-color: #ddd;
+}
+
+.thead-dark {
+  background-color: #373a3c;
+  color: #fff;
+}
+
+.thead-light {
+  background-color: #eceeef;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,.05);
+}
+
+.table-dark.table-striped tbody tr:nth-of-type(1+2n) {
+    background-color: rgba(255,255,255,.05);
+}
+
+/*.table {
+	margin-left: 56px;
+	margin-top: 72px;
+} */
+
+.Sidebar {
   width: 249px;
   height: 790px;
   box-shadow: -5px 0 25px 0 rgba(0, 0, 0, 0.04);
   background-color: #fff; 
   position: fixed;
   margin-top: -40px;
+  margin-left: -6px;
 }
 
-.Style-Guide {
+.Sidebar__Header--1 {
   width: 76px;
   height: 19px;
-  font-family: Lato;
+  font-family: 'Lato';
   font-size: 14px;
   font-weight: 600;
   font-style: normal;
@@ -37,12 +94,13 @@ a {
   letter-spacing: normal;
   text-align: left;
   color: #263238;
+  margin-left: 20px;
 }
 
-.Dian-Fauzilah {
+.Sidebar__Header--2 {
   width: 88px;
   height: 15px;
-  font-family: Lato;
+  font-family: 'Lato';
   font-size: 11px;
   font-weight: 600;
   font-style: normal;
@@ -52,12 +110,13 @@ a {
   text-align: left;
   color: #9a9a9a;
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 
-.Components {
+.Sidebar__Header--3 {
   width: 86px;
   height: 19px;
-  font-family: Lato;
+  font-family: 'Lato';
   font-size: 14px;
   font-weight: 600;
   font-style: normal;
@@ -66,27 +125,31 @@ a {
   letter-spacing: normal;
   text-align: left;
   color: #263238;
-  margin-top: 90px;
+  margin-top: 70px;
+  margin-left: 20px;
+  margin-bottom: 15px;
 }
 
-.Rectangle7 {
+.Sidebar__menu {
   width: 248.7px;
   height: 40px;
   background-color: #fafafa;
 }
 
-.color {
+.Nav__active--link {
   font-family: 'Lato';
-  font-size: 24px;
+  font-size: 14px;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.38;
+  text-decoration: none;
+  line-height: 2.53;
   letter-spacing: normal;
   text-align: left;
   color: #3f7ccc;
   background color: #fafafa;
   padding: 10px;
+  margin-left: 12px;
 }
 
 .Rectangle-7 {
@@ -95,171 +158,35 @@ a {
   background-color: var(--white);
 }
 
-.Typography {
+.Sidebar__nav--link {
   width: 71px;
   height: 18px;
   font-family: 'Lato';
   font-size: 13px;
   font-weight: normal;
   font-style: normal;
+  text-decoration: none;
   font-stretch: normal;
-  line-height: 1.38;
+  line-height: 2;
   letter-spacing: normal;
   text-align: left;
   color: #5c5c5c;
   padding: 10px;
   margin-top: 10px;
+  margin-left: 12px;
 }
 
-.grid {
-  /*width: 41px;
-  height: 18px; */
-  font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
+.Sidebar__nav--link:hover {
+  color:#fff;
+  text-shadow:
+    0px 1px 0px #3f7ccc,
+    0px 0px 3px #3f7ccc,
+    0px 0px 5px #3f7ccc,
+    0px 0px 30px #3f7ccc,
+    0px 3px 50px #3f7ccc;
 }
 
-.breadcrumb1 {
-  /*width: 28px;
-  height: 18px; */
-  font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.alert {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.alertlarge {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.jumbotron1 {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.cards {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.list {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.tables {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.forms {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.input-group {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.navs {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.navbar {
-font-family: 'Lato';
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5c5c5c;
-}
-
-.Rectangle-21 {
+.box {
   width: 1015px;
   height: 3787px;
   border-radius: 4px;
@@ -270,8 +197,4 @@ font-family: 'Lato';
   padding-top: 10px;
   padding-right: 100px;
   padding-bottom: 72px;
-}
-
-.alert {
-	margin-left: -10px;
 }

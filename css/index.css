@@ -21,7 +21,7 @@ a {
 .Sidebar__Header--1 {
   width: 76px;
   height: 19px;
-  font-family: Lato;
+  font-family: 'Lato';
   font-size: 14px;
   font-weight: 600;
   font-style: normal;
@@ -36,7 +36,7 @@ a {
 .Sidebar__Header--2 {
   width: 88px;
   height: 15px;
-  font-family: Lato;
+  font-family: 'Lato';
   font-size: 11px;
   font-weight: 600;
   font-style: normal;
@@ -52,7 +52,7 @@ a {
 .Sidebar__Header--3 {
   width: 86px;
   height: 19px;
-  font-family: Lato;
+  font-family: 'Lato';
   font-size: 14px;
   font-weight: 600;
   font-style: normal;
