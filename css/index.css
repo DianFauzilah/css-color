@@ -2,7 +2,7 @@
 
 body {
 	background-color: #fafafa;
-	position: fixed;
+	
 }
 a {
 	padding: 10px;
@@ -16,6 +16,7 @@ a {
   margin-top: -8px;
   margin-left: -6px;
   padding-top: 19px;
+  position: fixed;
 }
 
 .Sidebar__Header--1 {

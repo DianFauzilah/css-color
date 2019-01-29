@@ -3,32 +3,55 @@
 <head>
 <link rel="stylesheet" href="css/forms.css" type="text/css"/>
 <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
 </head>
 <body>
+	<div class="Sidebar"> 
+<div class="Sidebar--1">
+<div class="Sidebar__Header--1">Style Guide</div>
+<div class="Sidebar__Header--2">Dian Fauzilah</div>
+<div class="Sidebar__Header--3">Components</div>
+<div class="Sidebar__menu">
+<a href="color.html" class="Nav__active--link">color</a><br>
+</div>
+<a href="Typography.html" class="Sidebar__nav--link">Typoraphy</a> <br>
+<a href="grid.html" class="Sidebar__nav--link">grid</a><br>
+<a href="Bradcrumbs.html" class="Sidebar__nav--link">breadcrumb</a><br>
+<a href="alert.html" class="Sidebar__nav--link">alert</a><br>
+<a href="alertlarge.html" class="Sidebar__nav--link">alertlarge</a><br>
+<a href="jumbotron.html" class="Sidebar__nav--link">jumbotron</a><br>
+<a href="cards.html" class="Sidebar__nav--link">cards</a><br>
+<a href="list.html" class="Sidebar__nav--link">list</a><br>
+<a href="tables.html" class="Sidebar__nav--link">tables</a><br>
+<a href="forms.html" class="Sidebar__nav--link">forms</a><br>
+<a href="input group.html" class="Sidebar__nav--link">input group</a><br>
+<a href="navs.html" class="Sidebar__nav--link">navs</a><br>
+<a href="navbar.html" class="Sidebar__nav--link">navbar</a>
+<div class="box">
 <form>
   <div class="form-group">
     <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="formcontrol" id="exampleFormControlInput1" placeholder="name@example.com">
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address">
+    <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address">
   </div>
   <div class="form-group">
     <label for="exampleFormControlSelect1">Example select</label>
-    <select class="form-control" id="exampleFormControlSelect1">
+    <select class="form-control" >
       <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
     </select>
   </div>
   <div class="form-group">
     <label for="exampleFormControlSelect2">Example multiple select</label>
-    <select multiple class="form-control" id="exampleFormControlSelect2">
+    <select multiple class="form-control" >
       <option>1</option>
       <option>2</option>
       <option>3</option>
       <option>4</option>
-      <option>5</option>
+     
     </select>
   </div>
   <div class="form-group">
@@ -39,10 +62,44 @@
 <form="form-group1"> 
 <div class="form-group">
     <label for="exampleFormControlFile1">File Input</label>
-    <input type="file" class="form-control-file" id="exampleFormControlFile1">
   </div>
+
+    <button class="file-input">Chose File </button>
 </form>
-<div class="text">This is some placeholder block-level help text for the above input. It’s a bit lighter
+<div class="text">This is some placeholder block-level help text for the above input. It’s a bit lighter<p>
 and easily wraps to a new line.</div>
+
+<div class="form-group">
+	<input type="radio">Option one is this and that—be sure to include why it’s great
+</div>
+<div class="form-group">
+	<input type="radio"> Option two can be something else and selecting it will deselect option one
+</div>
+<div class="form-group static">
+	<input type="radio">Option three is disabled
+</div>
+<div class="form-group">
+	<input type="Checkbox"> Check me out
+</div>
+<button type="button" class="btn btn-primary">Submit</button>
+<br/>
+ <form class="inline-form">
+  <div class="form-group">
+      <label>Inline Form</label>
+  </div>
+      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        <option selected>Chose option</option>
+      </select>
+      <label class="mr-sm-2" for="inlineFormCustomSelect">Must select and option</label>
+    </div>
+
+     <!-- <div class="form-group">
+        <label>Must select and option</label>
+    </div> -->
+
+</form>
+
+   
+</div>
 </body>
 </html>
