@@ -83,23 +83,28 @@ and easily wraps to a new line.</div>
 </div>
 <button type="button" class="btn btn-primary">Submit</button>
 <br/>
- <form class="inline-form">
+ <form class="form-inline">
   <div class="form-group">
-      <label>Inline Form</label>
+      <label  class="mr-sm-2" for="inlineFormCustomSelect">Inline Form</label>
   </div>
-      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+      <select class="custom-select" id="inlineFormCustomSelect">
         <option selected>Chose option</option>
       </select>
       <label class="mr-sm-2" for="inlineFormCustomSelect">Must select and option</label>
-    </div>
-
-     <!-- <div class="form-group">
-        <label>Must select and option</label>
-    </div> -->
-
 </form>
 
-   
-</div>
+<form>
+	<div class="input-group">
+      <label>$</label>
+      <div class="input-group mb-2">
+        <div class="input-group-prepend">
+          <div class="input-group-text">@</div>
+        </div>
+        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+      </div>
+    </div>
+</form> 
+
+</div>  
 </body>
 </html>
