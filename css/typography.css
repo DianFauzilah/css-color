@@ -169,8 +169,6 @@ a {
 }
 
 .blockquote {
-  width: 623px;
-  height: 58px;
   font-size: 20px;
   line-height: 1.5;
   text-align: left;
@@ -201,9 +199,7 @@ a {
   color: #95989a;
 }
 
-.Blockquote1 {
-  width: 623px;
-  height: 58px;
+.Blockquote1 {g
   font-size: 20px;
   line-height: 1.5;
   text-align: right;
