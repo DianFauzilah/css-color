@@ -11,22 +11,51 @@
 <div class="Sidebar__Header--1">Style Guide</div>
 <div class="Sidebar__Header--2">Dian Fauzilah</div>
 <div class="Sidebar__Header--3">Components</div>
-<div class="Sidebar__menu">
-<a href="color.html" class="Nav__active--link">color</a><br>
+<ul class="Sidebar--menu">
+  <li class="Sidebar__nav--link">
+<a href="color.html">color</a>
+  </li>
+  <li class="Sidebar__nav--link">
+<a href="Typography.html">Typoraphy</a>
+  </li>
+  <li class="Sidebar__nav--link">
+<a href="grid.html">grid</a>
+  </li>
+  <li class="Sidebar__nav--link">
+<a href="Bradcrumbs.html">Bradcrumbs</a>
+  </li>
+  <li class="Sidebar__nav--link">
+<a href="alert.html">alert</a>
+  </li>
+  <li class="Sidebar__nav--link">
+<a href="alertlarge.html">alertlarge</a>
+  </li>
+  <li class="Sidebar__nav--link">
+<a href="jumbotron.html">jumbotron</a>
+  </li>
+  <li class="Sidebar__nav--link">
+<a href="cards.html">cards</a>
+  </li>
+  <li class="Sidebar__nav--link">
+<a href="list.html">list</a>
+  </li>
+  <li class="Sidebar__nav--link">
+<a href="tables.html">tables</a>
+  </li>
+  <li class="Sidebar__nav--link active">
+<a href="forms.html">forms</a>
+  </li>
+  <li class="Sidebar__nav--link">
+<a href="input group.html">input group</a>
+  </li>
+  <li class="Sidebar__nav--link">
+<a href="navs.html">navs</a>
+  </li>
+  <li class="Sidebar__nav--link">
+<a href="navbar.html">navbar</a>
+  </li>
+</ul>
 </div>
-<a href="Typography.html" class="Sidebar__nav--link">Typoraphy</a> <br>
-<a href="grid.html" class="Sidebar__nav--link">grid</a><br>
-<a href="Bradcrumbs.html" class="Sidebar__nav--link">breadcrumb</a><br>
-<a href="alert.html" class="Sidebar__nav--link">alert</a><br>
-<a href="alertlarge.html" class="Sidebar__nav--link">alertlarge</a><br>
-<a href="jumbotron.html" class="Sidebar__nav--link">jumbotron</a><br>
-<a href="cards.html" class="Sidebar__nav--link">cards</a><br>
-<a href="list.html" class="Sidebar__nav--link">list</a><br>
-<a href="tables.html" class="Sidebar__nav--link">tables</a><br>
-<a href="forms.html" class="Sidebar__nav--link">forms</a><br>
-<a href="input group.html" class="Sidebar__nav--link">input group</a><br>
-<a href="navs.html" class="Sidebar__nav--link">navs</a><br>
-<a href="navbar.html" class="Sidebar__nav--link">navbar</a>
 <div class="box">
 <form>
   <div class="form-group">
@@ -65,6 +94,7 @@
   </div>
 
     <button class="file-input">Chose File </button>
+    <span class="text--3">No File Chosen</span>
 </form>
 <div class="text">This is some placeholder block-level help text for the above input. It’s a bit lighter<p>
 and easily wraps to a new line.</div>
@@ -82,29 +112,105 @@ and easily wraps to a new line.</div>
 	<input type="Checkbox"> Check me out
 </div>
 <button type="button" class="btn btn-primary">Submit</button>
-<br/>
- <form class="form-inline">
-  <div class="form-group">
-      <label  class="mr-sm-2" for="inlineFormCustomSelect">Inline Form</label>
-  </div>
-      <select class="custom-select" id="inlineFormCustomSelect">
+
+
+<form>
+  <div class="form-row align-items-center">
+    <div class="col-auto my-1">
+      <label class="mr-sm-2" for="inlineFormCustomSelect">Inline Form</label>
+      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
         <option selected>Chose option</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
       </select>
-      <label class="mr-sm-2" for="inlineFormCustomSelect">Must select and option</label>
+      <span class="text">Must select and option</span>
+      <span class="text--1">Chose file</span>
+    </div>
+  </div>
+</form>
+
+<div class="row">
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text">$</span>
+  </div>
+  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+  <div class="input-group-append">
+    <span class="input-group-text">.00</span>
+  </div>
+</div>
+
+<div class="input-group input-group--1 mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">@</span>
+  </div>
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>	
+</div>
+
+<div class="form-group">
+    <label for="exampleFormControlInput1"> Disabled and read only</label>
+    <input type="email" class="form-control form-control--1" id="exampleFormControlInput1" placeholder="Email address">
+  </div>
+
+  <div class="form-group">
+    <input type="email" class="form-control--4 form-control--2" id="exampleFormControlInput1" placeholder=".form-control-lg">
+  </div>
+
+  <div class="form-group">
+    <input type="email" class="form-control--4 form-control--3" id="exampleFormControlInput1" placeholder=".form-control-sm">
+  </div>
+
+<form>
+    <div class="col-md-4 mb-3">
+      <label class="valid-feedback">Email address</label>
+      <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="hello@xdfreebies.com" required>
+      <div class="valid-feedback">
+        Success! You've done it.
+      </div>
+      <span class="text--2">Example help text that remains unchanged.</span>
 </form>
 
 <form>
-	<div class="input-group">
-      <label>$</label>
-      <div class="input-group mb-2">
-        <div class="input-group-prepend">
-          <div class="input-group-text">@</div>
-        </div>
-        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label class="valid-feedback--1">Email address</label>
+      <input type="text" class="form-control is-vali" id="validationServer01" placeholder="First name" value="hello@xdfreebies.com" required>
+      <div class="valid-feedback--1">
+        Shucks, check the formatting of that and try again.
       </div>
+      <span class="text--2">Example help text that remains unchanged.</span>
     </div>
-</form> 
+</form>
 
-</div>  
+<form>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label class="valid-feedback--2">Email address</label>
+      <input type="text" class="form-control is-invalid" id="validationServer01" placeholder="First name" value="hello@xdfreebies.com" required>
+      <div class="valid-feedback--2">
+        Sorry, that username’s taken. Try another?
+      </div>
+      <span class="text--2">Example help text that remains unchanged.</span>
+    </div>
+</form>
+
+<div class="custom-control custom-checkbox">
+  <input type="checkbox" class="custom-control-input" id="customCheck1">
+  <label class="custom-control-label" for="customCheck1"> Custom Checkbox</label>
+</div>
+
+<div class="custom-control custom-radio">
+  <input type="radio" id="radio3" name="radioDisabled" id="customRadioDisabled" class="custom-control-input" disabled>
+  <label class="custom-control-label" for="customRadioDisabled"> custom radio</label>
+</div>
+
+<div class="custom-file">
+  <input type="file" class="custom-file-input" id="customFile">
+  <label class="custom-file-label" for="customFile"></label>
+</div>
+
+</div>
 </body>
 </html>
