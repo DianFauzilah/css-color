@@ -297,7 +297,7 @@ font-size: 14px;
     border-color: #cb2e25;
 }
 
-.custom-select.is-vali, .form-control.is-vali, .was-validated .custom-select:vali, .was-validated .form-control:vali {
+.custom-select.warning, .form-control.warning, .was-validated .custom-select:warning, .was-validated .form-control:warning {
     border-color: #ee9800;
 }
 
@@ -338,7 +338,6 @@ font-size: 14px;
     display: block;
     min-height: 1.5rem;
     padding-left: 1.5rem;
-    padding-top: 46px;
 }
 
 input[type=checkbox], input[type=radio] {
@@ -390,7 +389,6 @@ label {
     -ms-user-select: none;
     user-select: none;
     background-color: #dee2e6;
-    margin-top: 46px;
 }
 
 input[type=radio] {
@@ -455,6 +453,81 @@ label {
     border-left: 1px solid #ced4da;
     border-radius: 0 .25rem .25rem 0;
 }
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  font-size: 16px;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+} 
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+} 
+
+.text {
+  font-size: 16px;
+  line-height: 1.13;
+  text-align: left;
+  color: #373a3c;
+}
+
+.col-4 {
+  width: 33.333333%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 46px;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    font-size: 16px;
+}
+
 
 .Sidebar__nav--link:hover {
   width: 100%;

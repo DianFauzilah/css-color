@@ -279,7 +279,8 @@ will-change: transform;
   border-radius: 4px;
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.05);
   background-color: #fff;
-  margin: 40px 30px;
   padding-left: 102px;
   padding-top: 59px;
+  margin-left: 290px;
+  margin-top: -680px;
 }

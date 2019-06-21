@@ -336,7 +336,7 @@ a:hover {
 }
 
 .box {
-  width: 1027px;
+  width: 1150px;
   height: 1362px;
   border-radius: 4px;
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.05);
@@ -347,4 +347,5 @@ a:hover {
 }
 .blockqut {
   padding: 22px 22px;
+  padding-right: 83px;
 }

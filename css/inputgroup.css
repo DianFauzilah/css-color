@@ -150,46 +150,6 @@ a:hover {
   flex-wrap: nowrap;
 } 
 
-.text--5 {
-  font-size: 14px;
-  line-height: 1.71;
-  text-align: left;
-  color: #777777;
-}
-
-.text--6 {
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: left;
-  color: #373a3c;
-  margin-bottom: 9px;
-}
-
-.text--7 {
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: left;
-  color: #818a91;
-}
-
-.card {
-  width: 175px;
-  height: 132px;
-  background-color: var(--white); 
-  margin-top: 0;
-  margin-left: 284px;
-}
-
-.card-body{
-  width: 175px;
-  height: 132px;
-  background-color: transparent;
-  border: 1px solid #dddddd;
-  padding-left: 15px;
-  padding-top: 16px;
-  font-size: 16px;
-}
-
 .Sidebar__nav--link:hover {
   width: 100%;
   background-color: #fafafa;
@@ -293,7 +253,7 @@ a:hover {
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.05);
   background-color: #fff;
   margin-left: 291px;
-  margin-top: -500px;
+  margin-top: -851px;
   padding-top: 50px;
   padding-left: 47px;
   padding-right: 48px;

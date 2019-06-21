@@ -12,9 +12,6 @@ a{
   text-decoration:none;
 }
 
-* {
-  font-family: 'Lato';
-}
 
 a:hover {
   color: #3f7ccc;
@@ -29,10 +26,6 @@ a:hover {
   color: #3f7ccc !important;
 }
 
-.Sidebar__nav--link:hover {
-  background-color: #fafafa;
-  width: 100%;
-} 
 .Sidebar--menu {
   list-style-type: none;
   margin: 0;
@@ -41,12 +34,17 @@ a:hover {
 
 .Sidebar {
   width: 250px;
-  height: 873px;
   box-shadow: -5px 0 25px 0 rgba(0, 0, 0, 0.04);
   background-color: #fff; 
-  margin-top: -8px;
+  position: fixed;
+  margin-top: -30px;
   margin-left: -6px;
   padding-top: 19px;
+  position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
 }
 
 .Sidebar__Header--1 {
@@ -95,8 +93,8 @@ a:hover {
 }
 
 .Sidebar__nav--link:hover {
-  width: 100%;
   font-size: 13px;
+  width: 90%;
   font-weight: normal;
   font-style: normal;
   text-decoration: none;
@@ -130,5 +128,6 @@ a:hover {
   border-radius: 4px;
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.05);
   background-color: #fff;
-  margin: 40px 30px;
+  margin-left: 279px;
+  margin-top: 30px;
 }
